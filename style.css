@@ -1,0 +1,59 @@
+body {
+  background-color: #dddddd;
+}
+p {
+  margin: 5px 0px;
+}
+.banner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.user-card {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.flexRow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.width50 {
+  width: 50%;
+}
+.width30 {
+  width: 30%;
+}
+.width70 {
+  width: 70%;
+}
+.width33 {
+  width: 33%;
+}
+.sorting-options {
+  margin-bottom: 20px;
+}
+.loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #686767; /* Blue */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+  z-index: 9999999;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
